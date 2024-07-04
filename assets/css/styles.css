@@ -115,24 +115,22 @@
 }
 
 .catalog {
-    width: 100%;
     height: 800px;
     overflow-y: scroll;
     align-items: center;
     justify-content: center;
+    padding-inline: 20px;
 }
 
 .card-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
     gap: 100px;
 }
 
 .card {
     width: 300px;
-    
+
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
