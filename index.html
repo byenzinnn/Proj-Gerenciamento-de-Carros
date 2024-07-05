@@ -14,127 +14,101 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="nav-container">
-        <nav class="nav-bg">
-          <div class="nav">
-            <div class="nav-input">
-              <span
-                class="material-symbols-outlined span-search"
-                width="50px"
-                height="50px"
-              >
-                search
-              </span>
-              <input
-                type="text"
-                name="Pesquisar Modelo"
-                id="pesquisa-modelo"
-                placeholder="Pesquisar modelo"
-              />
-            </div>
-          </div>
-        </nav>
-      </header>
-      <main>
-        <div class="content-container">
-          <div class="content-bg">
-            <div class="sidebar">
-              <div class="category">
-                <ul>
-                  <p>CATEGORIA</p>
-                  <li>Esportivo</li>
-                  <li>SUV</li>
-                  <li>Picapes</li>
-                  <li>Minivan</li>
-                </ul>
-              </div>
-              <div class="state">
-                <ul>
-                  <p>ESTADO</p>
-                  <li>Novo</li>
-                  <li>Usado</li>
-                </ul>
+      <div class="container">
+        <header class="nav-container">
+          <nav class="nav-bg">
+            <div class="nav">
+              <div class="nav-input">
+                <span
+                  class="material-symbols-outlined span-search"
+                  width="50px"
+                  height="50px"
+                >
+                  search
+                </span>
+                <input
+                  type="text"
+                  name="Pesquisar Modelo"
+                  id="pesquisa-modelo"
+                  placeholder="Pesquisar modelo"
+                />
+                <div class="btn-add">
+                  <img src="assets/img/iconAdd.svg" alt="" />
+                </div>
               </div>
             </div>
+          </nav>
+        </header>
+        <main>
+          <div class="content-container">
+            <div class="content-bg">
+              <div class="sidebar">
+                <div class="category">
+                  <ul>
+                    <p>CATEGORIA</p>
+                    <li>Esportivo</li>
+                    <li>SUV</li>
+                    <li>Picapes</li>
+                    <li>Minivan</li>
+                  </ul>
+                </div>
+                <div class="state">
+                  <ul>
+                    <p>ESTADO</p>
+                    <li>Novo</li>
+                    <li>Usado</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="catalog">
+              <div class="card-container">
+                <div class="card">
+                  <div class="container">
+                    <img
+                      src="assets/img/carro.jfif"
+                      alt="Avatar"
+                      style="width: 100%"
+                    />
+                    <div class="tag-container">
+                      <div class="tag">
+                        <p>Usado</p>
+                      </div>
+                      <div class="tag">
+                        <p>SUV</p>
+                      </div>
+                    </div>
+                    <h4><b>John Doe</b></h4>
+                    <p>Architect & Engineer</p>
+                    <p id="car-price">R$ 50.000</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="catalog">
-            <div class="card-container">
-              <div class="card">
-                <div class="container">
-                  <img
-                    src="assets/img/carro.jfif"
-                    alt="Avatar"
-                    style="width: 100%"
-                  />
-
-                  <h4><b>John Doe</b></h4>
-                  <p>Architect & Engineer</p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="container">
-                  <img
-                    src="assets/img/carro.jfif"
-                    alt="Avatar"
-                    style="width: 100%"
-                  />
-
-                  <h4><b>John Doe</b></h4>
-                  <p>Architect & Engineer</p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="container">
-                  <img
-                    src="assets/img/carro.jfif"
-                    alt="Avatar"
-                    style="width: 100%"
-                  />
-
-                  <h4><b>John Doe</b></h4>
-                  <p>Architect & Engineer</p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="container">
-                  <img
-                    src="assets/img/carro.jfif"
-                    alt="Avatar"
-                    style="width: 100%"
-                  />
-
-                  <h4><b>John Doe</b></h4>
-                  <p>Architect & Engineer</p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="container">
-                  <img
-                    src="assets/img/carro.jfif"
-                    alt="Avatar"
-                    style="width: 100%"
-                  />
-
-                  <h4><b>John Doe</b></h4>
-                  <p>Architect & Engineer</p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="container">
-                  <img
-                    src="assets/img/carro.jfif"
-                    alt="Avatar"
-                    style="width: 100%"
-                  />
-
-                  <h4><b>John Doe</b></h4>
-                  <p>Architect & Engineer</p>
-                </div>
-              </div>
+        </main>
+        <!-- CONTEÚDO PRO INNERHTML-->
+        <div class="modal-add">
+          <div class="modal-container">
+            <div class="select">
+              <ul>
+                <li>Informações</li>
+                <hr />
+              </ul>
+              <ul>
+                <li>Informações</li>
+                <hr />
+              </ul>
+            </div>
+            <div class="separate">
+              <hr>
+            </div>
+            <div class="options">
+              <input type="text" />
             </div>
           </div>
         </div>
-      </main>
+      </div>
     </div>
   </body>
 </html>
