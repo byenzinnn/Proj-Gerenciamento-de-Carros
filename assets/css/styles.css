@@ -20,6 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .container {
@@ -171,34 +172,41 @@
 
 .modal-add {
   position: fixed;
-  width: 80%;
+  width: 70%;
   height: 500px;
   background-color: rgb(255, 255, 255);
   top: 10%;
+  left: 15%;
   border-radius: 20px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .modal-container {
   display: flex;
   justify-content: space-around;
+  width: auto;
+  height: 80%;
   padding: 20px;
+  margin-top: 20%;
 }
 
 .modal-add ul {
   display: grid;
-  margin-bottom: 20px;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 36px;
 }
 
-.modal ul li {
-    
+.select {
+  height: 100%;
+  justify-content: space-around;
 }
-
 .separate hr {
-    height: 400px;
-    transform: translateY(30px);
+  transform: rotate(90deg);
 }
 
-.modal-add hr {
-    width: 80%;
+.btn-infocarro button {
+  border: none;
+  margin-top: 24px;
 }
